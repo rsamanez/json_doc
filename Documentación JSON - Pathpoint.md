@@ -45,6 +45,7 @@ Where:
  - ***Prefix***: *It is used in the case in which you want to Identify the KPI by placing a symbol or letter at the beginning of the name. Example: USD 12000*
  - ***Suffix***: *It is used in the case where you want to Identify the KPI by adding a symbol or letter at the end of the name. Example: 5%*
 
+#### - Example KPI
 
 ![Example_KPI](Example_KPI.png)
 
