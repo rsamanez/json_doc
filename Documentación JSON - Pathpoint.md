@@ -1,17 +1,9 @@
 ﻿## Pathpoint Configuration File
-
   
 
 The configuration of pathpoint is managed by a powerful JSON configuration file that let's us add and configure stages, steps, and touchpoints. The file can be uploaded and downloaded directly from the Pathpoint UI.
-```mermaid
-graph LR
-A[Stage_n] --> B[Step_1] --> C[Touchpoint_1]
-A --> D[Step_n]
-B --> E[Touchpoint_n]
-D --> F[Touchpoint_1]
-D --> G[Touchpoint_n]
-```
 
+![structure_pathpoint](Estructure_Pathpoint.png)
 
 ### Uploading a New Config File
 [TBD]
