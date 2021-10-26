@@ -35,7 +35,7 @@ KPI by its acronym (Key Performance Indicator), are normally known as key indica
 
 Where:
 
- - ***Type***: *Defines the type of measurement to be performed, which can be: 
+ - ***Type***: *Defines the type of measurement to be performed, which can be: <br>
  -- "100" returns the current measurement value.  
  -- "101" returns the current value and compares it with the value of "X" previous days*
  - ***Name***: *Corresponds to the long name of the KPI.*
