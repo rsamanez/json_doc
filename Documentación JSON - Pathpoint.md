@@ -46,7 +46,7 @@ Where:
  - ***Suffix***: *It is used in the case where you want to Identify the KPI by adding a symbol or letter at the end of the name. Example: 5%*
 
 
-![structure_pathpoint](Estructure_Pathpoint.png)
+![Example_API](Example_API.png)
 
 #### - KPI Pathpoint Image ~~(imagen por verificar~~)
 
