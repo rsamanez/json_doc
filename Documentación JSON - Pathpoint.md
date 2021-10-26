@@ -21,19 +21,20 @@ KPI by its acronym (Key Performance Indicator), are normally known as key indica
 #### - Structure KPI
 
     "kpis": [
-        {
-            "type": 101,
-            "name": "Unique Visitors",
-            "shortName": "Unique",
-            "link": "https://onenr.io/01qwL8KPxw5",
-            "query": "SELECT count(*) as value  FROM  Public_APICall COMPARE WITH 2 day ago",
-            "value_type": "FLOAT",
-            "prefix": "$",
-            "suffix": ""
-        }
-	]
+        	{
+		    "type": 101,
+		    "name": "Unique Visitors",
+		    "shortName": "Unique",
+		    "link": "https://onenr.io/01qwL8KPxw5",
+		    "query": "SELECT count(*) as value  FROM  Public_APICall COMPARE WITH 2 day ago",
+		    "value_type": "FLOAT",
+		    "prefix": "$",
+		    "suffix": ""
+        	}
+	    ]
 
 Where:
+
  - ***Type***: *Defines the type of measurement to be performed, which can be: 
  -- "100" returns the current measurement value.  
  -- "101" returns the current value and compares it with the value of "X" previous days*
