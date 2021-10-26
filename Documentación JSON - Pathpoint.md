@@ -3,7 +3,7 @@
 
 The configuration of pathpoint is managed by a powerful JSON configuration file that let's us add and configure stages, steps, and touchpoints. The file can be uploaded and downloaded directly from the Pathpoint UI.
 
-![structure_pathpoint](Estructure_Pathpoint.png)
+![structure_pathpoint](Structure_Pathpoint.png)
 
 ### Uploading a New Config File
 [TBD]
@@ -46,20 +46,11 @@ Where:
  - ***Suffix***: *It is used in the case where you want to Identify the KPI by adding a symbol or letter at the end of the name. Example: 5%*
 
 
-|Name|Type|Ejemplo|
-|----------|--------------|-------------|---|
-|Type|ID|100 or 101|
-|Name|String|"1 Account"|
-|ShortName|String|"1 Acc."|
-|Link|String|"https://onenr.io/01qwL8KPxw5"|
-|Query|String|"SELECT count(*) as value  FROM  Public_APICall COMPARE WITH 2 day ago"|
-|Value_type|String|"FLOAT"|
-|Prefix|String||
-|Suffix|String|"%"|
+![structure_pathpoint](Estructure_Pathpoint.png)
 
 #### - KPI Pathpoint Image ~~(imagen por verificar~~)
 
-![enter image description here](KPI.png)
+![Example_API](Example_API.png)
 
 
 #### 2. Stages  
