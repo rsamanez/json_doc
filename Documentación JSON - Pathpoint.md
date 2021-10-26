@@ -94,10 +94,7 @@ Where:
  - ***Type***: *explicar...* 
  - ***Type***: *explicar...*
  
- |Name|Type|Ejemplo|
-|----------|--------------|-------------|---|
-|Type|ID|...|
-|Name|String|...|
+ 
  
 #### - KPI Pathpoint Image ~~(imagen por verificar~~)
  
