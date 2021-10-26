@@ -39,8 +39,10 @@ Where:
  -- "100" returns the current measurement value.  
  -- "101" returns the current value and compares it with the value of "X" previous days*
  - ***Name***: *Corresponds to the long name of the KPI.*
- - ***ShortName***: *Corresponds to the short name of the KPI.*
- - ***Link***: *Corresponds to the link that directs to the KPI dashboard.*
+ - ***ShortName***: *Corresponds to the short name of the KPI.*<br><br>
+ ![KPI_display](KPI2.png) <br><br>
+ - ***Link***: *Corresponds to the link that directs to the KPI dashboard.*<br><br>
+ ![link_KPI](linkKPI.png) <br><br>
  - ***Query***: *Corresponds to the query that is used to perform the measurement*. 
  - ***Value_type***: *It can be an integer value "INT" (example: 100) or a decimal value "FLOAT" (example: 100,2)*.
  - ***Prefix***: *It is used in the case in which you want to Identify the KPI by placing a symbol or letter at the beginning of the name. Example: USD 12000*
@@ -52,11 +54,10 @@ Where:
 
 #### - KPI Pathpoint Image
 
+
 ![KPI](KPI.png)
 
 ![KPI_types](KPI1.png)
-
-![KPI_display](KPI2.png)
 
 
 #### 2. Stages  
