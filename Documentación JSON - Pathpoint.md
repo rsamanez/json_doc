@@ -54,6 +54,10 @@ Where:
 
 ![KPI](KPI.png)
 
+![KPI_types](KPI1.png)
+
+![KPI_display](KPI2.png)
+
 
 #### 2. Stages  
 Aquí se pueden ver las etapas de negocio a alto nivel. Por cada etapa comercial se presentan diferentes servicios y métodos a nivel de sistema. Basado en la información comercial, PathPoint previsualiza indicadores de la latencia.
