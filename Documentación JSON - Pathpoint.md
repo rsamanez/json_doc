@@ -67,7 +67,7 @@ Where:
 
 #### - KPI Pathpoint Image ~~(imagen por verificar~~)
 
-![enter image description here](https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/4/c/4c6edbd1d55d9dcd4ff4e5ec2a29a04674189903.png)
+![enter image description here](KPI.png)
 
 
 #### 2. Stages  
