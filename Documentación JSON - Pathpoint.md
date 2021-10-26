@@ -48,7 +48,7 @@ Where:
  ![value_type](value_type_KPI.png) <br><br>
  - ***Prefix***: *It is used in the case in which you want to Identify the KPI by placing a symbol or letter at the beginning of the name. Example: USD 12000*
  - ***Suffix***: *It is used in the case where you want to Identify the KPI by adding a symbol or letter at the end of the name. Example: 5%*.
- - <br><br>
+ <br><br>
  ![prefix_suffix](prefix_suffix_KPI.png) <br><br>
 
 #### - Example KPI
@@ -65,28 +65,35 @@ Where:
 
 #### 2. Stages  
 Aquí se pueden ver las etapas de negocio a alto nivel. Por cada etapa comercial se presentan diferentes servicios y métodos a nivel de sistema. Basado en la información comercial, PathPoint previsualiza indicadores de la latencia.
-Toda la información relacionada a la etapa, incluidos los errores por cada una de ellas, permite detallar ciertos aspectos a alto nivel, como lo son: PRE-PROCESAMIENTO, PRE-PEDIDO, PAGO, GESTIÓN DE PEDIDOS, DISTRIBUCIÓN Y DEVOLUCIONES.
+Toda la información relacionada a la etapa, incluidos los errores por cada una de ellas, permite detallar ciertos aspectos a alto nivel.
 
-***2A. Pre-procesamiento***
-Para cada etapa, se mostrarán algunas estadísticas útiles debajo de la descripción de la etapa. Además, habrá un gráfico de flechas que representará el desempeño agregado general de esa etapa.
+#### - Structure Stage
 
-***2B. Reserva***
-Vea el tráfico de usuarios o transacciones en tiempo real y mida la congestión por el porcentaje de un proceso personal que tarda más de lo esperado en pasar de una etapa a la otra. 
-
-***2C. Pago***
-Esto muestra una puntuación APDEX agregada que está diseñada para representar el peor desempeño de los puntos de contacto en esta etapa.
-
-***2D. Gestión de pedidos***
-Esto muestra el nivel de utilización de la infraestructura asociada a esta etapa. 
-
-***2E. Distribución y devoluciones***
-Un indicador simple de la salud del escenario Se deriva de un conjunto de señales agregadas.
-
+"stages": [
+           {
+            "title": "BROWSE",
+            "active_dotted": "none",
+            "arrowMode": "FLOW",
+            "percentage_above_avg": 20,
+	    	"steps": 
+		[
+			"Code steps..."
+		]
+			"touchpoints": 
+				[
+				"Code touchpoints..."
+				]
+	   }
+	  ]
+	  
+	  
 #### - Stage example
+
 Where:
- - ***Type***: *explicar...* 
- - ***Type***: *explicar...*
- 
+ - ***Title***: *explicar...* 
+ - ***active_dotted***: *explicar...*
+ - ***arrowMode***: *explicar...*
+ - ***percentage_above_avg***: *explicar...*
  
  
 #### - KPI Pathpoint Image ~~(imagen por verificar~~)
