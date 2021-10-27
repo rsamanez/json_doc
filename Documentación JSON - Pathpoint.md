@@ -113,10 +113,18 @@ All the information related to the stage, including the errors for each one of t
 	  
 	  
 Where:
- - ***Title***: *Corresponds to the name that identifies the stage* 
- - ***active_dotted***: *explicar...*
- - ***arrowMode***: *explicar ¿que significa cada estilo de flecha?..."flow", "static"*
- - ***percentage_above_avg***: *Indicates the percentage that is above the mean*
+ - ***Title***: *Corresponds to the name that identifies the stage* <br>
+ ![example_titles](Examples_Titles_Stages.png)<br> 
+ - ***active_dotted***: *Define la visualización del inicio o fin de un flujo. Solo maneja dos valores: "ninguno" o "punteado". Por defecto toma el valor "ninguno". Cuando se cambia el valor a "punteado", le agrega unas lineas punteadas a la izquierda del stage donde se define* <br>
+ A continuación un ejemplo al activar "punteado"
+ ![example_active_dotted](Example_active_dotted.png)<br>
+ - ***arrowMode***: *Define la forma de la flecha de la cabecera de los Stages. Solo maneja dos valores: "FLOW" y "STATIC". Por defecto es "FLOW"* <br>
+ Ejemplo con "FLOW"
+ ![example_arrowMode](Example_arrowMode_flow.png)<br>
+ Ejemplo con "static"
+ ![example_arrowMode](Example_arrowMode_static.png)<br>
+ - ***percentage_above_avg***: *Indicates the percentage that is above the mean* <br>
+ ![example_percentage](Example_percentage.png)<br>
 
 #### - Examples stage <br><br>
 Example 1<br><br>
@@ -125,8 +133,6 @@ Example 1<br><br>
 Example 2<br><br>
 ![example_stage_2](Example_Stage2.png)<br><br>
 
-#### - Stage Image
-![stage](Stage.png)
 
 #### 3. Steps
 These are "sub-stages" of a main stage and represent a certain degree of granularity in your services. When you click on any of the steps, even more detailed services and functions will be displayed in the list of associated TouchPoints. When a stage has a red border, it means that there is an error type anomaly for that stage.
