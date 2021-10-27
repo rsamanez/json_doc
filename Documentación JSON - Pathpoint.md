@@ -94,16 +94,45 @@ Where:
  - ***arrowMode***: *explicar ¿que significa cada estilo de flecha?..."flow", "static"*
  - ***percentage_above_avg***: *Indica el porcentaje que se encuentra por encima de la media*
 
-#### - Example stage 
+#### - Examples stage 
 ![example_stage_1](Example_Stage1.png)
-<br>
+<br><br>
 ![example_stage_2](Example_Stage2.png)
 
 #### - KPI Pathpoint Image
 ![stage](Stage.png)
 
 #### 3. Steps
-[TBD]
+Estas son "sub-etapas" de una etapa principal y representan cierto grado de granularidad en sus servicios. Al momento de hacer clic sobre alguno de los pasos, se mostrarán servicios y funciones aún más detallados en la lista de TouchPoints. Cuando una etapa presenta un borde rojo, significa que hay una anomalía de tipo error para dicha etapa.
+
+#### - Structure Steps
+
+	"steps": [
+                  {
+                    "line": 1,
+                    "values": 
+		     [
+                        {
+                            "title": "Web",
+                            "id": "ST1-LINE1-SS1"
+                        },
+                        {
+                            "title": "Mobile Web",
+                            "id": "ST1-LINE1-SS2"
+                        },
+                        {
+                            "title": "App",
+                            "id": "ST1-LINE1-SS3"
+                        }
+		     ]
+		   }
+                 ]
+
+Where:
+
+#### - Examples Steps
+
+#### - Steps Images
 
 #### 4. Touchpoints
 [TBD]
