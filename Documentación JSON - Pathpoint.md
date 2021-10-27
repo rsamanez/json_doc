@@ -69,35 +69,37 @@ Toda la información relacionada a la etapa, incluidos los errores por cada una 
 
 #### - Structure Stage
 
-"stages": [
+	"stages": 
+	[
            {
             "title": "BROWSE",
             "active_dotted": "none",
             "arrowMode": "FLOW",
             "percentage_above_avg": 20,
 	    	"steps": 
-		[
-			"Code steps..."
-		]
-			"touchpoints": 
-				[
-				"Code touchpoints..."
-				]
+		 [
+		  "Code steps..."
+		 ]
+		    "touchpoints": 
+			[
+			   "Code touchpoints..."
+			]
 	   }
-	  ]
+	 ]
 	  
 	  
-#### - Stage example
-
 Where:
  - ***Title***: *explicar...* 
  - ***active_dotted***: *explicar...*
  - ***arrowMode***: *explicar...*
  - ***percentage_above_avg***: *explicar...*
- 
- 
-#### - KPI Pathpoint Image ~~(imagen por verificar~~)
- 
+
+#### - example stage 
+
+
+#### - KPI Pathpoint Image
+![stage](Stage.png)
+
 #### 3. Steps
 [TBD]
 
