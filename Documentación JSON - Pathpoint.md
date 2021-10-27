@@ -11,18 +11,30 @@ Pathpoint ofrece la posibilidad de cargar el archivo de configuración a través
 
 1. Dirigirse al menú de la parte superior izquierda <br>
 ![Uploading1](Menu_pathpoint.png) <br>
-2. Ingresa a la opción "Configuración JSON" <br>
+2. Ingresar a la opción "Configuración JSON" <br>
 ![Uploading2](Option_configuration.png) <br>
-3. Posteriormente selecciona "Actualizar" <br>
+3. Posteriormente seleccionar "Actualizar" <br>
 ![Uploading3](Option_update.png) <br>
-4. Ubica el archivo que desea cargar <br>
+4. Ubicar el archivo que desea actualizar y cargar <br>
 ![Uploading4](file_location.png) <br>
 5. Finalmente se visualiza el pathopint con la última actualización cargada.<br>
 ![Uploading5](front_pathpoint.png)
 <br>  
 
 ### Downloading the Currently Active Config File
-[TBD]
+
+De igual manera Pathpoint brinda la posibilidad de poder descargar el archivo de configuración a través de la siguiente opción.
+
+1. Dirigirse al menú de la parte superior izquierda <br>
+![Uploading1](Menu_pathpoint.png) <br>
+2. Ingresar a la opción "Configuración JSON" <br>
+![Uploading2](Option_configuration.png) <br>
+3. Posteriormente seleccionar la opción disponible para descargar "Pathpoint_json_vx" <br>
+![Uploading3](pathpoint_jason_vx.png) <br>
+4. Alojar el archivo en la ubicación que desee <br>
+![Uploading4](save_file.png) <br>
+5. Finalmente el archivo se descarga para su consulta <br>
+![Uploading4](downloaded file.png) <br>
 
 ### JSON Format Explained
 JSON for its acronym (JavaScript Object Notation) is a data structure, whose basic function is to allow the exchange of information. Through this structure it will be possible to identify each of the elements and components that will facilitate the implementation of Pathpoint, knowing the function of its attributes, queries and data output.
