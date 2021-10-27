@@ -94,16 +94,20 @@ Where:
  - ***arrowMode***: *explicar ¿que significa cada estilo de flecha?..."flow", "static"*
  - ***percentage_above_avg***: *Indica el porcentaje que se encuentra por encima de la media*
 
-#### - Examples stage 
+#### - Examples stage <br><br>
+Example 1<br><br>
 ![example_stage_1](Example_Stage1.png)
 <br><br>
-![example_stage_2](Example_Stage2.png)
+Example 2<br><br>
+![example_stage_2](Example_Stage2.png)<br><br>
 
-#### - KPI Pathpoint Image
+#### - Stage Image
 ![stage](Stage.png)
 
 #### 3. Steps
-Estas son "sub-etapas" de una etapa principal y representan cierto grado de granularidad en sus servicios. Al momento de hacer clic sobre alguno de los pasos, se mostrarán servicios y funciones aún más detallados en la lista de TouchPoints. Cuando una etapa presenta un borde rojo, significa que hay una anomalía de tipo error para dicha etapa.
+Estas son "sub-etapas" de una etapa principal y representan cierto grado de granularidad en sus servicios. Al momento de hacer clic sobre alguno de los pasos, se mostrarán servicios y funciones aún más detallados en la lista de los TouchPoints asociados. Cuando una etapa presenta un borde rojo, significa que hay una anomalía de tipo error para dicha etapa.
+
+Un paso contiene uno o más puntos de contacto. Cada pasos permite entender de alguna manera el rendimiento del sistema a las partes interesadas del negocio sin entrar en todos los detalles de implementación.
 
 #### - Structure Steps
 
@@ -129,10 +133,20 @@ Estas son "sub-etapas" de una etapa principal y representan cierto grado de gran
                  ]
 
 Where:
+- ***Line***: *Posiciona la fila en la que se ubica la tarea dentro de la etapa.* 
+- ***Values***: *Indica los parámetros para cada paso*
+- ***Title***: *Corresponde al nombre con el que se identifica el paso"*
+- ***ID***: *Corresponde al código que identifica el paso en su orden dentro de la fila que se encuentra ubicado*
 
 #### - Examples Steps
+Example 1<br><br>
+![example_step_1](Example_Step1.png)
+<br><br>
+Example 2<br><br>
+![example_step_2](Example_Step2.png)<br><br>
 
 #### - Steps Images
+![steps](Steps.png)
 
 #### 4. Touchpoints
 [TBD]
