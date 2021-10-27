@@ -64,8 +64,8 @@ Where:
 
 
 #### 2. Stages  
-Aquí se pueden ver las etapas de negocio a alto nivel. Por cada etapa comercial se presentan diferentes servicios y métodos a nivel de sistema. Basado en la información comercial, PathPoint previsualiza indicadores de la latencia.
-Toda la información relacionada a la etapa, incluidos los errores por cada una de ellas, permite detallar ciertos aspectos a alto nivel.
+Here you can see the business stages at a high level. For each commercial stage, different services and methods are presented at the system level. Based on business information, PathPoint previews latency indicators.
+All the information related to the stage, including the errors for each one of them, allows to detail certain aspects at a high level.
 
 #### - Structure Stage
 
@@ -89,10 +89,10 @@ Toda la información relacionada a la etapa, incluidos los errores por cada una 
 	  
 	  
 Where:
- - ***Title***: *Corresponde al nombre que identifica a la etapa* 
+ - ***Title***: *Corresponds to the name that identifies the stage* 
  - ***active_dotted***: *explicar...*
  - ***arrowMode***: *explicar ¿que significa cada estilo de flecha?..."flow", "static"*
- - ***percentage_above_avg***: *Indica el porcentaje que se encuentra por encima de la media*
+ - ***percentage_above_avg***: *Indicates the percentage that is above the mean*
 
 #### - Examples stage <br><br>
 Example 1<br><br>
@@ -105,9 +105,9 @@ Example 2<br><br>
 ![stage](Stage.png)
 
 #### 3. Steps
-Estas son "sub-etapas" de una etapa principal y representan cierto grado de granularidad en sus servicios. Al momento de hacer clic sobre alguno de los pasos, se mostrarán servicios y funciones aún más detallados en la lista de los TouchPoints asociados. Cuando una etapa presenta un borde rojo, significa que hay una anomalía de tipo error para dicha etapa.
+These are "sub-stages" of a main stage and represent a certain degree of granularity in your services. When you click on any of the steps, even more detailed services and functions will be displayed in the list of associated TouchPoints. When a stage has a red border, it means that there is an error type anomaly for that stage.
 
-Un paso contiene uno o más puntos de contacto. Cada pasos permite entender de alguna manera el rendimiento del sistema a las partes interesadas del negocio sin entrar en todos los detalles de implementación.
+A step contains one or more contact points. Each step allows business stakeholders to understand the performance of the system in some way without going into all the implementation details.
 
 #### - Structure Steps
 
@@ -133,10 +133,10 @@ Un paso contiene uno o más puntos de contacto. Cada pasos permite entender de a
                  ]
 
 Where:
-- ***Line***: *Posiciona la fila en la que se ubica la tarea dentro de la etapa.* 
-- ***Values***: *Indica los parámetros para cada paso*
-- ***Title***: *Corresponde al nombre con el que se identifica el paso"*
-- ***ID***: *Corresponde al código que identifica el paso en su orden dentro de la fila que se encuentra ubicado*
+- ***Line***: *Positions the row in which the task is located within the stage.* 
+- ***Values***: *Indicate the parameters for each step.*
+- ***Title***: *Corresponds to the name with which the step is identified.*
+- ***ID***: *Corresponds to the code that identifies the step in its order within the row that is located.*
 
 #### - Examples Steps
 Example 1<br><br>
