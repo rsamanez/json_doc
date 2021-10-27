@@ -7,33 +7,33 @@ The configuration of pathpoint is managed by a powerful JSON configuration file 
 
 ### Uploading a New Config File
 
-Pathpoint ofrece la posibilidad de cargar el archivo de configuración a través de la siguiente opción.
+Pathpoint offers the possibility to load the configuration file through the following option.
 
-1. Dirigirse al menú de la parte superior izquierda <br>
+1. Go to the menu at the top left <br>
 ![Uploading1](Menu_pathpoint.png) <br>
-2. Ingresar a la opción "Configuración JSON" <br>
+2. Enter the option "JSON Configuration" <br>
 ![Uploading2](Option_configuration.png) <br>
-3. Posteriormente seleccionar "Actualizar" <br>
+3. Then select "Update" <br>
 ![Uploading3](Option_update.png) <br>
-4. Ubicar el archivo que desea actualizar y dar click en "abrir" <br>
+4. Locate the file you want to update and click on "open" <br>
 ![Uploading4](file_location.png) <br>
-5. Finalmente se visualiza el pathopint con la última actualización cargada.<br>
+5. Finally the pathopint is displayed with the latest update loaded. <br>
 ![Uploading5](front_pathpoint.png)
 <br>  
 
 ### Downloading the Currently Active Config File
 
-De igual manera Pathpoint brinda la posibilidad de poder descargar el archivo de configuración a través de la siguiente opción.
+Similarly, Pathpoint offers the possibility of downloading the configuration file through the following option.
 
-1. Dirigirse al menú de la parte superior izquierda <br>
+1. Go to the menu at the top left <br>
 ![Downloading1](Menu_pathpoint.png) <br>
-2. Ingresar a la opción "Configuración JSON" <br>
+2. Enter the option "JSON Configuration" <br>
 ![Downloading2](Option_configuration.png) <br>
-3. Posteriormente seleccionar la opción disponible para descargar "Pathpoint_json_vx" <br>
+3. Then select the option available to download "Pathpoint_json_vX" <br>
 ![Downloading3](pathpoint_jason_vx.png) <br>
-4. Alojar el archivo en la ubicación que desee <br>
+4. Host the file in the location you want <br>
 ![Downloading4](save_file.png) <br>
-5. Finalmente el archivo se descarga para su consulta <br>
+5. Finally the file is downloaded for your consultation <br>
 ![Downloading5](downloaded_file.png) <br>
 
 ### JSON Format Explained
@@ -81,7 +81,6 @@ Where:
 
 #### - KPI Pathpoint Image
 
-
 ![KPI](KPI.png)
 
 ![KPI_types](KPI1.png)
@@ -115,15 +114,15 @@ All the information related to the stage, including the errors for each one of t
 Where:
  - ***Title***: *Corresponds to the name that identifies the stage* <br>
  ![example_titles](Examples_Titles_Stages.png)<br> 
- - ***active_dotted***: *Define la visualización del inicio o fin de un flujo. Solo maneja dos valores: "ninguno" o "punteado". Por defecto toma el valor "ninguno". Cuando se cambia el valor a "punteado", le agrega unas lineas punteadas a la izquierda del stage donde se define* <br>
- A continuación un ejemplo al activar "punteado"
+ - ***Active_dotted***: *Defines the display of the start or end of a flow. It only handles two values: "none" or "dotted". By default it takes the value "none". When the value is changed to "dotted", it adds some dotted lines to the left of the stage where it is defined* <br>
+ Here is an example when activating "dotted" <br>
  ![example_active_dotted](Example_active_dotted.png)<br>
- - ***arrowMode***: *Define la forma de la flecha de la cabecera de los Stages. Solo maneja dos valores: "FLOW" y "STATIC". Por defecto es "FLOW"* <br>
- Ejemplo con "FLOW"
+ - ***ArrowMode***: *Defines the shape of the arrow on the header of the Stages. It only handles two values: "FLOW" and "STATIC". By default it is "FLOW"* <br>
+ Example with "FLOW" <br>
  ![example_arrowMode](Example_arrowMode_flow.png)<br>
- Ejemplo con "static"
+ Example with "static" <br>
  ![example_arrowMode](Example_arrowMode_static.png)<br>
- - ***percentage_above_avg***: *Indicates the percentage that is above the mean* <br>
+ - ***Percentage_above_avg***: *Indicates the percentage that is above the mean* <br>
  ![example_percentage](Example_percentage.png)<br>
 
 #### - Examples stage <br><br>
