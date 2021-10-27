@@ -6,8 +6,23 @@ The configuration of pathpoint is managed by a powerful JSON configuration file 
 ![structure_pathpoint](Structure_Pathpoint.png)
 
 ### Uploading a New Config File
-[TBD]
-  
+
+Pathpoint ofrece la posibilidad de cargar el archivo de configuración a través de la siguiente opción.
+
+1. Dirigirse al menú de la parte superior izquierda <br>
+![Uploading1](Menu_pathpoint.png) <br>
+2. Ingresa a la opción "Configuración JSON"<br>
+![Uploading2](Option_configuration.png)
+<br>
+3. Posteriormente selecciona "Actualizar"<br>
+![Uploading3](Option_update.png)
+<br>
+3. Ubica el archivo que desea cargar<br>
+![Uploading4](file_location.png)
+<br>
+5. Finalmente se visualiza el pathopint con la última actualización cargada.<br>
+![Uploading5](front_pathpoint.png)
+<br>  
 
 ### Downloading the Currently Active Config File
 [TBD]
