@@ -179,7 +179,7 @@ Example 2<br><br>
 #### - Steps Images
 When you click on any of the steps, even more detailed services and functions will be displayed in the list of associated TouchPoints. When a stage has a red border, it means that there is an error type anomaly for that stage. <br>
 
-A step contains one or more contact points. Each step allows business stakeholders to understand the performance of the system in some way without going into all the implementation details. <br>
+A step contains one or more contact points. Each step allows business stakeholders to understand the performance of the system in some way without going into all the implementation details. <br> 
 
 ![steps](Steps.png)
 
