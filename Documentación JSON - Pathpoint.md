@@ -229,7 +229,7 @@ Where:
 En este apartado se pueden visualizar todos los touchpoint configurados, o si lo desea podrá ver solamente los que presenten problemas (para ello basta con desactivar la casilla "ver todos"). <br><br>
 ![example_TP_ViewAll_inactive](TP_ViewAll_inactive.png)<br>
 ![example_TP_ViewAll_Active](TP_ViewAll_Active.png)<br><br>
-Cuando selecciona un paso, Pathpoint resaltará los puntos de contacto relacionados a dicho paso. Si los touchpoint están sanos, se presentarán con un contorno azul. Si presentan anomalías, se marcarán en contorno rojo. <br><br>
+Cuando selecciona un paso, Pathpoint resaltará los puntos de contacto relacionados a dicho paso. Si los touchpoint están sanos, el paso se presentará con un contorno azul. Si alguno de los touchpoint presentan anomalías, el paso se marcarán en contorno rojo. <br><br>
 ![touchpoints](Touchpoints.png) <br>
 
 ### Different Touchpoint Types Explained
