@@ -186,11 +186,50 @@ A step contains one or more contact points. Each step allows business stakeholde
 #### 4. Touchpoints
 Estas se detallan las entidades más granulares del modelo PathPoint. Los TouchPoints comportarse como una aplicación de navegador o APM (Monitor de Aplicaciones) específica. El estado de salud de un TouchPoint estará vinculado a la tasa de error y la latencia. <br>
 
+#### - Structure Touchpoint
+
+	"touchpoints": 
+	[
+                {
+                    "title": "Login People",
+                    "status_on_off": true,
+                    "dashboard_url": 
+		    [
+                        "https://onenr.io/01qwL8KPxw5"
+                    ],
+                    "related_steps": "ST1-LINE2-SS1",
+                    "queries": 
+		    [
+                        {
+                            "type": "PRC-COUNT-QUERY",
+                            "accountID": 1606862,
+                            "query": "SELECT count(*) as session FROM Transaction WHERE appName='WebPortal'",
+                            "min_count": 100
+                        }
+                    ]
+                }
+          ]
+
+Where:
+- ***Title***: *Corresponde al nombre que identifica el touchpoint.* <br>
+![example_title_TP](Examples_title_TP.png) <br>
+- ***Status_on_off***: *Esta opción permite habilitar o inhabilitar un touchpoint a modo de visualización. Para acceder a esta vista, solo debe dar click derecho sobre el touchpoint y seleccionar la opción "on/off"* <br>
+![example_status_on_off_TP](Example_status_on_off_TP_1.png) <br>
+![example_status_on_off_TP](Example_status_on_off_TP_2.png) <br>
+- ***Dashboard_url***: *Corresponds to the link that directs to the tochpoint dashboard.* <br>
+- ***Related_steps***: *Indica el paso al cual se encuentra asociado. Para el ejemplo, el touchpoint "Login People" se encuentra vinculado al paso "Login".* <br>
+![example_related_steps_TP](Examples_related_steps_TP.png) <br>
+- ***Queries***: *Aquí se podrán determinar todos los parámetros de consulta que alertan el touchpoint. Para acceder a esta vista, solo debe dar click derecho sobre el touchpoint y seleccionar la opción "consultas"* <br>
+- ***Type***: *Identifica el tipo de consulta. Para el ejemplo, se trata de un conteo de sesiones, por eso la abreviatura PRC (Recuento de personas)* <br>
+- ***AccountID***: *Determina el código con el que se identifica la consulta.* <br>
+- ***Query***: *Visualiza la consulta que realmente determina el tocuhpoint.* <br>
+![example_queries_TP](Examples_queries_TP_1.png) <br>
+![example_queries_TP](Examples_queries_TP_2.png) <br><br>
 #### - Touchpoint Images
 En este apartado se pueden visualizar todos los touchpoint configurados, o si lo desea podrá ver solamente los que presenten problemas (para ello basta con desactivar la casilla "ver todos"). <br><br>
 ![example_TP_ViewAll_inactive](TP_ViewAll_inactive.png)<br>
 ![example_TP_ViewAll_Active](TP_ViewAll_Active.png)<br><br>
-Cuando selecciona un paso, Pathpoint resaltará los puntos de contacto relacionados a dicho paso. Si los touchpoint están sanos, se presentarán con un contorno azul. Si presentan anomalías, se marcarán en contorno rojo. <br>
+Cuando selecciona un paso, Pathpoint resaltará los puntos de contacto relacionados a dicho paso. Si los touchpoint están sanos, se presentarán con un contorno azul. Si presentan anomalías, se marcarán en contorno rojo. <br><br>
 ![touchpoints](Touchpoints.png) <br>
 
 ### Different Touchpoint Types Explained
