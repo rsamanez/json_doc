@@ -75,15 +75,14 @@ Where:
  <br><br>
  ![prefix_suffix](prefix_suffix_KPI.png) <br><br>
 
-#### - Example KPI
-
-![Example_KPI](Example_KPI.png)
+#### - Example KPI<br>
+![Example_KPI](Example_KPI.png)<br><br>
 
 #### - KPI Pathpoint Image
 
-![KPI](KPI.png)
+![KPI](KPI.png)<br>
 
-![KPI_types](KPI1.png)
+![KPI_types](KPI1.png)<br>
 
 
 #### 2. Stages  
@@ -125,11 +124,11 @@ Where:
  - ***Percentage_above_avg***: *Indicates the percentage that is above the mean* <br>
  ![example_percentage](Example_percentage.png)<br>
 
-#### - Examples stage <br><br>
-Example 1<br><br>
+#### - Examples stage <br>
+Example 1<br>
 ![example_stage_1](Example_Stage1.png)
 <br><br>
-Example 2<br><br>
+Example 2<br>
 ![example_stage_2](Example_Stage2.png)<br><br>
 
 
@@ -168,12 +167,11 @@ Where:
 - ***ID***: *Corresponds to the code that identifies the step in its order within the row that is located. For the example, in line 1 the "Web" step is assigned the order # 1, the "Mobile Web" step has the order # 2 assigned and the "App" step is assigned the order # 3 in its configuration.* <br>
 ![example_id](Examples_ID_Step.png) <br>
 
-#### - Examples Steps
-
+#### - Examples Steps <br>
 Example 1<br>
 ![example_step_1](Example_Step1.png)
 <br><br>
-Example 2<br><br>
+Example 2<br>
 ![example_step_2](Example_Step2.png)<br><br>
 
 #### - Steps Images
@@ -184,7 +182,7 @@ A step contains one or more contact points. Each step allows business stakeholde
 ![steps](Steps.png)
 
 #### 4. Touchpoints
-Estas se detallan las entidades más granulares del modelo PathPoint. Los TouchPoints comportarse como una aplicación de navegador o APM (Monitor de Aplicaciones) específica. El estado de salud de un TouchPoint estará vinculado a la tasa de error y la latencia. <br>
+These detail the more granular entities of the PathPoint model. TouchPoints behave like a specific browser application or APM (Application Monitor). The health status of a TouchPoint will be linked to the error rate and latency. <br>
 
 #### - Structure Touchpoint
 
@@ -211,26 +209,35 @@ Estas se detallan las entidades más granulares del modelo PathPoint. Los TouchP
           ]
 
 Where:
-- ***Title***: *Corresponde al nombre que identifica el touchpoint.* <br>
+- ***Title***: *Corresponds to the name that identifies the touchpoint.* <br>
 ![example_title_TP](Examples_title_TP.png) <br>
-- ***Status_on_off***: *Esta opción permite habilitar o inhabilitar un touchpoint a modo de visualización. Para acceder a esta vista, solo debe dar click derecho sobre el touchpoint y seleccionar la opción "on/off"* <br>
+- ***Status_on_off***: *This option allows you to enable or disable a touchpoint for display mode. To access this view, you just have to right click on the touchpoint and select the option "on/off"* <br>
 ![example_status_on_off_TP](Example_status_on_off_TP_1.png) <br>
 ![example_status_on_off_TP](Example_status_on_off_TP_2.png) <br>
 - ***Dashboard_url***: *Corresponds to the link that directs to the tochpoint dashboard.* <br>
-- ***Related_steps***: *Indica el paso al cual se encuentra asociado. Para el ejemplo, el touchpoint "Login People" se encuentra vinculado al paso "Login".* <br>
+- ***Related_steps***: *Indicates the step to which it is associated. For the example, the "Login People" touchpoint is linked to the "Login" step.* <br>
 ![example_related_steps_TP](Examples_related_steps_TP.png) <br>
-- ***Queries***: *Aquí se podrán determinar todos los parámetros de consulta que alertan el touchpoint. Para acceder a esta vista, solo debe dar click derecho sobre el touchpoint y seleccionar la opción "consultas"* <br>
-- ***Type***: *Identifica el tipo de consulta. Para el ejemplo, se trata de un conteo de sesiones, por eso la abreviatura PRC (Recuento de personas)* <br>
-- ***AccountID***: *Determina el código con el que se identifica la consulta.* <br>
-- ***Query***: *Visualiza la consulta que realmente determina el tocuhpoint.* <br>
+- ***Queries***: *Here you can determine all the query parameters that alert the touchpoint. To access this view, you just have to right click on the touchpoint and select the option "queries"* <br>
+- ***Type***: *Identify the type of query. For the example, it is a session count, hence the abbreviation PRC-People Count (Vew [Different Touchpoint Types Explained](url))* <br>
+- ***AccountID***: *Determines the code with which the query is identified.* <br>
+- ***Query***: *Displays the query that actually determines the tocuhpoint.* <br>
 ![example_queries_TP](Examples_queries_TP_1.png) <br>
 ![example_queries_TP](Examples_queries_TP_2.png) <br><br>
+
+#### - Examples Touchpoint <br>
+Example 1<br>
+![example_touchpoint_1](Example_Touchpoint1.png)
+<br><br>
+Example 2<br>
+![example_touchpoint_2](Example_Touchpoint2.png)<br><br>
+
 #### - Touchpoint Images
-En este apartado se pueden visualizar todos los touchpoint configurados, o si lo desea podrá ver solamente los que presenten problemas (para ello basta con desactivar la casilla "ver todos"). <br><br>
+In this section you can view all the configured touchpoints, or if you wish you can see only the ones that present problems (to do this, just deactivate the "view all" box). <br><br>
 ![example_TP_ViewAll_inactive](TP_ViewAll_inactive.png)<br>
 ![example_TP_ViewAll_Active](TP_ViewAll_Active.png)<br><br>
-Cuando selecciona un paso, Pathpoint resaltará los puntos de contacto relacionados a dicho paso. Si los touchpoint están sanos, el paso se presentará con un contorno azul. Si alguno de los touchpoint presentan anomalías, el paso se marcarán en contorno rojo. <br><br>
+When you select a step, Pathpoint will highlight the touchpoints related to that step. If the touchpoints are healthy, the step will be outlined in blue. If any of the touchpoints show anomalies, the step will be marked in red outline. <br><br>
 ![touchpoints](Touchpoints.png) <br>
+
 
 ### Different Touchpoint Types Explained
 
