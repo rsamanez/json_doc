@@ -134,9 +134,7 @@ Example 2<br><br>
 
 
 #### 3. Steps
-These are "sub-stages" of a main stage and represent a certain degree of granularity in your services. When you click on any of the steps, even more detailed services and functions will be displayed in the list of associated TouchPoints. When a stage has a red border, it means that there is an error type anomaly for that stage.
-
-A step contains one or more contact points. Each step allows business stakeholders to understand the performance of the system in some way without going into all the implementation details.
+These are "sub-stages" of a main stage and represent a certain degree of granularity in your services. 
 
 #### - Structure Steps
 
@@ -162,19 +160,27 @@ A step contains one or more contact points. Each step allows business stakeholde
                  ]
 
 Where:
-- ***Line***: *Positions the row in which the task is located within the stage.* 
+- ***Line***: *Positions the row in which the task is located within the stage.* <br>
+![example_line](Examples_Line_Step.png) <br>
 - ***Values***: *Indicate the parameters for each step.*
-- ***Title***: *Corresponds to the name with which the step is identified.*
-- ***ID***: *Corresponds to the code that identifies the step in its order within the row that is located.*
+- ***Title***: *Corresponds to the name with which the step is identified.* <br>
+![example_title](Examples_Title_Step.png) <br>
+- ***ID***: *Corresponds to the code that identifies the step in its order within the row that is located. For the example, the "Web" step is assigned the order # 1, the "Mobile Web" step has the order # 2 assigned and the "App" step is assigned the order # 3 in its configuration.* <br>
+![example_id](Examples_ID_Step.png) <br>
 
 #### - Examples Steps
-Example 1<br><br>
+
+Example 1<br>
 ![example_step_1](Example_Step1.png)
 <br><br>
 Example 2<br><br>
 ![example_step_2](Example_Step2.png)<br><br>
 
 #### - Steps Images
+When you click on any of the steps, even more detailed services and functions will be displayed in the list of associated TouchPoints. When a stage has a red border, it means that there is an error type anomaly for that stage. <br>
+
+A step contains one or more contact points. Each step allows business stakeholders to understand the performance of the system in some way without going into all the implementation details. <br>
+
 ![steps](Steps.png)
 
 #### 4. Touchpoints
