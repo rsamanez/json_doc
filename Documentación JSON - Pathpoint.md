@@ -218,7 +218,7 @@ Where:
 - ***Related_steps***: *Indicates the step to which it is associated. For the example, the "Login People" touchpoint is linked to the "Login" step.* <br>
 ![example_related_steps_TP](Examples_related_steps_TP.png) <br>
 - ***Queries***: *Here you can determine all the query parameters that alert the touchpoint. To access this view, you just have to right click on the touchpoint and select the option "queries"* <br>
-- ***Type***: *Identify the type of query. For the example, it is a session count, hence the abbreviation PRC-People Count (Vew [Different Touchpoint Types Explained](url))* <br>
+- ***Type***: *Identify the type of query. For the example, it is a session count, hence the abbreviation PRC-People Count (Vew section "Different Touchpoint Types Explained")* <br>
 - ***AccountID***: *Determines the code with which the query is identified.* <br>
 - ***Query***: *Displays the query that actually determines the tocuhpoint.* <br>
 ![example_queries_TP](Examples_queries_TP_1.png) <br>
@@ -240,8 +240,80 @@ When you select a step, Pathpoint will highlight the touchpoints related to that
 
 
 ### Different Touchpoint Types Explained
+Pathpoint offers different types of touchpoints, which are adapted according to the needs of the business. Below is the description and a brief example for each case:
 
- [TBD]
+#### PRC (Person Count) 
+●	Data: 
+○	User Sessions  
+
+●	Tunning: 
+○	Session Count (Min)
+
+●	Link: PRC Touchpoint Flashboards 
+○	Current Sessions
+○	Past Sessions
+○	Previous Week Comparison
+
+
+
+#### PCC (Process Count) 
+●	Data: 
+○	Transactions  
+
+●	Tunning: 
+○	Transactions Count (Min)
+
+●	Link: PCC Touchpoint Flashboard  
+○	Current Transactions
+○	Past Transactions
+○	Previous Week Comparison
+
+#### APP (Application Health) 
+●	Data:  
+○	Transactions
+
+●	Tunning: 
+○	APDEX Response (Min)
+○	% Error (Max)
+○	Response Time (Max)
+
+●	Link: APM Transaction Dashboard
+○	APDEX
+○	Throughput
+○	Breakdown
+○	Traces
+
+#### FRT (Front End Health) 
+●	Data:  
+○	Transactions
+
+●	Tunning: 
+○	APDEX Response (Min)
+○	% Error (Max)
+○	Response Time (Max)
+
+●	Link: Page View Transaction Dashboard
+○	APDEX
+○	Throughput
+○	Breakdown
+○	Traces
+
+#### SYN (Synthetic Check)  
+●	Data: 
+○	Synthetic Monitor Data
+
+●	Tunning: 
+○	Avg Request Time (Max)
+○	Total Check Time (Max)
+○	% Success Rate (Min) 
+
+●	Link: Synthetic Monitor Results Dashboard 
+○	Long Running Tasks
+○	Bytes Transferred
+○	Requests
+○	Total Time
+○	Requests Waterfall
+
   
 
 ### Example JSON Files for Different Business Sectors
