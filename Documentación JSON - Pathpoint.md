@@ -252,10 +252,10 @@ Pathpoint offers different types of touchpoints, which are adapted according to 
 ●	Link: PRC Touchpoint Flashboards 
 ○	Current Sessions
 ○	Past Sessions
-○	Previous Week Comparison
+○	Previous Week Comparison <br>
 
-
-
+![example_TP_PRC](Example_TP_PRC1.png) <br><br>
+![example_TP_PRC](Example_TP_PRC2.png) <br>
 #### PCC (Process Count) 
 ●	Data: 
 ○	Transactions  
@@ -266,8 +266,10 @@ Pathpoint offers different types of touchpoints, which are adapted according to 
 ●	Link: PCC Touchpoint Flashboard  
 ○	Current Transactions
 ○	Past Transactions
-○	Previous Week Comparison
+○	Previous Week Comparison<br>
 
+![example_TP_PCC](Example_TP_PCC1.png) <br><br>
+![example_TP_PCC](Example_TP_PCC2.png) <br>
 #### APP (Application Health) 
 ●	Data:  
 ○	Transactions
@@ -281,8 +283,10 @@ Pathpoint offers different types of touchpoints, which are adapted according to 
 ○	APDEX
 ○	Throughput
 ○	Breakdown
-○	Traces
+○	Traces<br>
 
+![example_TP_APP](Example_TP_APP1.png) <br><br>
+![example_TP_APP](Example_TP_APP2.png) <br>
 #### FRT (Front End Health) 
 ●	Data:  
 ○	Transactions
@@ -296,8 +300,10 @@ Pathpoint offers different types of touchpoints, which are adapted according to 
 ○	APDEX
 ○	Throughput
 ○	Breakdown
-○	Traces
+○	Traces <br>
 
+![example_TP_FRT](Example_TP_FRT1.png) <br><br>
+![example_TP_FRT](Example_TP_FRT2.png) <br>
 #### SYN (Synthetic Check)  
 ●	Data: 
 ○	Synthetic Monitor Data
@@ -312,8 +318,10 @@ Pathpoint offers different types of touchpoints, which are adapted according to 
 ○	Bytes Transferred
 ○	Requests
 ○	Total Time
-○	Requests Waterfall
+○	Requests Waterfall <br>
 
+![example_TP_SYN](Example_TP_SYN1.png) <br><br>
+![example_TP_SYN](Example_TP_SYN2.png) <br>
   
 
 ### Example JSON Files for Different Business Sectors
