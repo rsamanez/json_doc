@@ -44,16 +44,23 @@ KPI by its acronym (Key Performance Indicator), are normally known as key indica
 
 #### - Structure KPI
 
-    "kpis": [
+   
+     "kpis": [
         	{
-		    "type": 101,
-		    "name": "Unique Visitors",
-		    "shortName": "Unique",
-		    "link": "https://onenr.io/01qwL8KPxw5",
-		    "query": "SELECT count(*) as value  FROM  Public_APICall COMPARE WITH 2 day ago",
-		    "value_type": "FLOAT",
-		    "prefix": "$",
-		    "suffix": ""
+             	    "type": 101,
+            	    "name": "Total Purchases",
+            	    "shortName": "PURCH",
+            	    "measure": 
+		      [
+                	{
+                    	"accountID": 1606862,
+                    	"query": "SELECT count(*) as value FROM Transaction where appName = 'Order-Processing' where name = 'Controller/Sinatra//purchase' and http.statusCode = 200 COMPARE WITH 1 week ago",
+                    "link": "https://onenr.io/08dQePr1dje"
+                	}
+            	      ],
+            "value_type": "FLOAT",
+            "prefix": "",
+            "suffix": ""
         	}
 	    ]
 
@@ -65,9 +72,12 @@ Where:
  - ***Name***: *Corresponds to the long name of the KPI.*
  - ***ShortName***: *Corresponds to the short name of the KPI.*<br><br>
  ![KPI_display](KPI2.png) <br><br>
+ - ***Measure***: Se visualizan los datos que permiten hacer la medida.
+ - ***accountID***: *Corresponde al número que identifica la medición realizada*. 
+ - ***Query***: *Corresponds to the query that is used to perform the measurement*. 
  - ***Link***: *Corresponds to the link that directs to the KPI dashboard.*<br><br>
  ![link_KPI](linkKPI.png) <br><br>
- - ***Query***: *Corresponds to the query that is used to perform the measurement*. 
+ 
  - ***Value_type***: *It can be an integer value "INT" (example: 100) or a decimal value "FLOAT" (example: 100,2)*.<br><br>
  ![value_type](value_type_KPI.png) <br><br>
  - ***Prefix***: *It is used in the case in which you want to Identify the KPI by placing a symbol or letter at the beginning of the name. Example: USD 12000*
