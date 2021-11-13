@@ -126,7 +126,7 @@ Where:
  - ***Active_dotted***: *Defines the display of the start or end of a flow. It only handles two values: "none" or "dotted". By default it takes the value "none". When the value is changed to "dotted", it adds some dotted lines to the left of the stage where it is defined* <br>
  Here is an example when activating "dotted" <br>
  ![example_active_dotted](Example_active_dotted.png)<br>
- - ***ArrowMode***: *Defines the shape of the arrow on the header of the Stages. It only handles two values: "FLOW" and "STATIC". By default it is "FLOW"* <br>
+ - ***ArrowMode hola***: *Defines the shape of the arrow on the header of the Stages. It only handles two values: "FLOW" and "STATIC". By default it is "FLOW"* <br>
  Example with "FLOW"<br>
  ![example_arrowMode](Example_arrowMode_flow.png)<br>
  Example with "static" <br>
