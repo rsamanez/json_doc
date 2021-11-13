@@ -127,7 +127,7 @@ Where:
  Here is an example when activating "dotted" <br>
  ![example_active_dotted](Example_active_dotted.png)<br>
  - ***ArrowMode***: *Defines the shape of the arrow on the header of the Stages. It only handles two values: "FLOW" and "STATIC". By default it is "FLOW"* <br>
- Example with "FLOW" <br>
+ Example with "FLOW"<br>
  ![example_arrowMode](Example_arrowMode_flow.png)<br>
  Example with "static" <br>
  ![example_arrowMode](Example_arrowMode_static.png)<br>
