@@ -97,7 +97,7 @@ Where:
 
 #### 2. Stages  
 Here you can see the business stages at a high level. For each commercial stage, different services and methods are presented at the system level. Based on business information, PathPoint previews latency indicators.
-All the information related to the stage, including the errors for each one of them, allows to detail certain aspects at a high level.
+All the information related to the stage, including the errors for each one of them, allows to detail certain aspects at a high level. In a stage we can see first-hand if any of its associated touchpoints is critical, and if this happens, then the stage will turn yellow. If it stays green, it means that everything is working normally. And if the stage turns red, it means that all its touchpoints have anomalies.
 
 #### - Structure Stage
 
